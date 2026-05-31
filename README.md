@@ -11,9 +11,11 @@
   <img src="https://img.shields.io/badge/App_Store-4.9%E2%98%85-gold?style=flat-square&logo=appstore" />
   <br /><br />
 
-  <a href="https://apps.apple.com/app/mirrormate">
+  <a href="https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="40" alt="Download on the Mac App Store" />
   </a>
+  &nbsp;
+  <a href="https://mirrormateapp.com">mirrormateapp.com</a>
 </div>
 
 ---
@@ -115,7 +117,7 @@ The camera session pauses automatically when the mirror is hidden — zero CPU/G
 
 <div align="center">
   Built solo as an indie macOS product.<br />
-  <strong>Philippe Godfroy</strong> — <a href="https://github.com/KippieG">github.com/KippieG</a>
+  <strong>Philippe Godfroy</strong> — <a href="https://github.com/KippieG">github.com/KippieG</a> · <a href="https://mirrormateapp.com">mirrormateapp.com</a>
   <br /><br />
   <em>This repository is a public showcase. Source code is kept private.</em>
 </div>
