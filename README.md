@@ -1,32 +1,34 @@
 <div align="center">
-  <img src="assets/icon.png" width="100" height="100" alt="MirrorMate icon" />
+  <img src="assets/icon.png" width="110" height="110" alt="MirrorMate icon" />
   <h1>MirrorMate</h1>
   <p><strong>The instant mirror for your Mac — always one shortcut away.</strong></p>
 
-  <img src="https://img.shields.io/badge/macOS-13.0%2B-black?style=flat-square&logo=apple" />
-  <img src="https://img.shields.io/badge/Swift-5.9-orange?style=flat-square&logo=swift" />
-  <img src="https://img.shields.io/badge/SwiftUI-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/AVFoundation-grey?style=flat-square" />
-  <img src="https://img.shields.io/badge/StoreKit_2-purple?style=flat-square" />
-  <img src="https://img.shields.io/badge/App_Store-4.9%E2%98%85-gold?style=flat-square&logo=appstore" />
+  <img src="https://img.shields.io/badge/macOS-13.0%2B-000000?style=flat-square&logo=apple&logoColor=white" />
+  <img src="https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square&logo=swift&logoColor=white" />
+  <img src="https://img.shields.io/badge/SwiftUI-0070C9?style=flat-square&logo=swift&logoColor=white" />
+  <img src="https://img.shields.io/badge/AVFoundation-636363?style=flat-square" />
+  <img src="https://img.shields.io/badge/StoreKit_2-5856D6?style=flat-square" />
+  <img src="https://img.shields.io/badge/App_Store-★_4.9-FFD60A?style=flat-square&logo=appstore&logoColor=000" />
   <br /><br />
 
   <a href="https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" height="40" alt="Download on the Mac App Store" />
+    <img src="assets/mac-appstore-badge.svg" height="44" alt="Download on the App Store" />
   </a>
-  &nbsp;
-  <a href="https://mirrormateapp.com">mirrormateapp.com</a>
+  &nbsp;&nbsp;
+  <a href="https://mirrormateapp.com">
+    <img src="https://img.shields.io/badge/Website-mirrormateapp.com-1C1C1E?style=flat-square" height="20" />
+  </a>
 </div>
 
 ---
 
 ## What is MirrorMate?
 
-MirrorMate turns your Mac's camera into an instant mirror — accessible from the menubar or via `⌘⇧M` at any moment. Zero switching, zero friction. The mirror is there when you need it and invisible when you don't.
+MirrorMate turns your Mac's camera into an instant mirror — accessible from the menubar or via `⌘⇧M` at any moment. Zero switching, zero friction. The mirror appears in under 50ms and disappears just as fast.
 
-Built for anyone who wants a quick mirror before a call, presentation, or just to check themselves — without picking up their phone.
+Built for anyone who wants a quick mirror before a Zoom call, presentation, or just to check themselves — without picking up their phone.
 
-**4.9★ on the App Store · 12K+ Mac users · 100% native · 0ms perceived latency**
+**4.9★ on the App Store &nbsp;·&nbsp; 12K+ Mac users &nbsp;·&nbsp; 100% native macOS &nbsp;·&nbsp; < 50ms to open**
 
 ---
 
@@ -34,12 +36,12 @@ Built for anyone who wants a quick mirror before a call, presentation, or just t
 
 <table>
   <tr>
-    <td align="center"><img src="assets/screenshot-settings.png" width="380" /><br /><sub>General Settings</sub></td>
-    <td align="center"><img src="assets/screenshot-appearance.png" width="380" /><br /><sub>Appearance & Grid Overlay</sub></td>
+    <td align="center"><img src="assets/screenshot-settings.png" width="370" /><br /><sub><b>General Settings</b></sub></td>
+    <td align="center"><img src="assets/screenshot-appearance.png" width="370" /><br /><sub><b>Appearance & Grid Overlay</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshot-shortcuts.png" width="380" /><br /><sub>Keyboard Shortcuts</sub></td>
-    <td align="center"><img src="assets/screenshot-pro.png" width="380" /><br /><sub>MirrorMate Pro</sub></td>
+    <td align="center"><img src="assets/screenshot-shortcuts.png" width="370" /><br /><sub><b>Keyboard Shortcuts</b></sub></td>
+    <td align="center"><img src="assets/screenshot-pro.png" width="370" /><br /><sub><b>MirrorMate Pro</b></sub></td>
   </tr>
 </table>
 
@@ -87,10 +89,10 @@ Built for anyone who wants a quick mirror before a call, presentation, or just t
 
 | Layer | Technology |
 |-------|-----------|
-| UI | SwiftUI + AppKit (NSPanel, NSStatusBar) |
-| Camera | AVFoundation (AVCaptureSession, up to 1080p) |
+| UI | SwiftUI + AppKit (`NSPanel`, `NSStatusBar`) |
+| Camera | AVFoundation (`AVCaptureSession`, up to 1080p) |
 | State | Combine + `@MainActor` |
-| Payments | StoreKit 2 (Lifetime, Annual, Monthly) |
+| Payments | StoreKit 2 — Lifetime, Annual, Monthly |
 | Architecture | MVVM — `MirrorViewModel`, `CameraManager`, `AppCoordinator` |
 | Persistence | `UserDefaults` + `@AppStorage` |
 
@@ -102,8 +104,8 @@ The camera session pauses automatically when the mirror is hidden — zero CPU/G
 
 - No network requests — ever
 - No analytics or tracking
-- Camera activates only when the mirror window is visible
-- No data stored or transmitted
+- Camera activates only when the mirror window is open
+- No data stored or transmitted anywhere
 
 ---
 
@@ -116,8 +118,12 @@ The camera session pauses automatically when the mirror is hidden — zero CPU/G
 ---
 
 <div align="center">
-  Built solo as an indie macOS product.<br />
-  <strong>Philippe Godfroy</strong> — <a href="https://github.com/KippieG">github.com/KippieG</a> · <a href="https://mirrormateapp.com">mirrormateapp.com</a>
+  <br />
+  Built solo as an indie macOS product.
   <br /><br />
-  <em>This repository is a public showcase. Source code is kept private.</em>
+  <strong>Philippe Godfroy</strong>
+  <br />
+  <a href="https://github.com/KippieG">github.com/KippieG</a> &nbsp;·&nbsp; <a href="https://mirrormateapp.com">mirrormateapp.com</a>
+  <br /><br />
+  <sub>This repository is a public showcase. Source code is private.</sub>
 </div>
